@@ -1,0 +1,19 @@
+{
+  "name": "text-to-sql",
+  "version": "1.0.0",
+  "description": "text-to-sql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "langchain": "^0.1.0",
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
